@@ -1,0 +1,11 @@
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\bin\Debug\net9.0\Core.Persistence.deps.json
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\bin\Debug\net9.0\Core.Persistence.dll
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\bin\Debug\net9.0\Core.Persistence.pdb
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net9.0\Core.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net9.0\Core.Persistence.AssemblyInfoInputs.cache
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net9.0\Core.Persistence.AssemblyInfo.cs
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net9.0\Core.Persistence.csproj.CoreCompileInputs.cache
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net9.0\Core.Persistence.dll
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net9.0\refint\Core.Persistence.dll
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net9.0\Core.Persistence.pdb
+C:\nArchitecture\src\corePackages\Core.Packages\Core.Persistence\obj\Debug\net9.0\ref\Core.Persistence.dll
