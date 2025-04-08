@@ -1,4 +1,5 @@
 ﻿using System.Linq.Expressions;
+using Core.Persistence.Dynamic;
 using Core.Persistence.Paging;
 using Microsoft.EntityFrameworkCore.Query;
 
@@ -24,7 +25,7 @@ public interface IAsyncRepository<TEntity, TEntityId>:IQuery<TEntity>
     Task<Paginate<TEntity>> GetListAsync(
         Expression<Func<TEntity, bool>>? predicate=null,
         Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy=null,//order by
-        Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include=null,
+        Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include=null,//join
         int index=0, //ilk sayfa
         int size=10, //10 veri
         bool withDeleted=false,
@@ -33,7 +34,7 @@ public interface IAsyncRepository<TEntity, TEntityId>:IQuery<TEntity>
         );
     
     Task<Paginate<TEntity>> GetListByDynamicAsync(
-        //DynamicQuery dynamic,   
+        DynamicQuery dynamic,   
         Expression<Func<TEntity, bool>>? predicate=null,
         Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include=null,
         int index=0, //ilk sayfa
@@ -49,7 +50,6 @@ public interface IAsyncRepository<TEntity, TEntityId>:IQuery<TEntity>
         bool enableTracking=true,
         CancellationToken cancellationToken=default
         );
-
     Task<TEntity> AddAsync(TEntity entity);
     Task<ICollection<TEntity>> AddRangeAsync(ICollection<TEntity> entities); //çoklu veri ekleme
     
