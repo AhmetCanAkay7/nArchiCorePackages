@@ -1,4 +1,6 @@
-﻿namespace Core.Persistence.Dynamic;
+﻿using System.Collections.Generic;
+
+namespace Core.Persistence.Dynamic;
 
 //represent a filter in a dynamic query
 public class Filter

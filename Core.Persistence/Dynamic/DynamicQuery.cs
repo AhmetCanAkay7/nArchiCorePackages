@@ -1,4 +1,6 @@
-﻿namespace Core.Persistence.Dynamic;
+﻿using System.Collections.Generic;
+
+namespace Core.Persistence.Dynamic;
 
 public class DynamicQuery // dynamic structure has filters and sorts
 {

@@ -1,4 +1,6 @@
-﻿namespace Core.Persistence.Repositories;
+﻿using System;
+
+namespace Core.Persistence.Repositories;
 
 public class Entity<TId> : IEntityTimestamps
 {

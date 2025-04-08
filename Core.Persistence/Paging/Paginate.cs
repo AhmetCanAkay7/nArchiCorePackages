@@ -1,4 +1,6 @@
-﻿using Core.Persistence.Repositories;
+﻿using System;
+using System.Collections.Generic;
+using Core.Persistence.Repositories;
 
 namespace Core.Persistence.Paging;
 //Frontendçi için önemli kısım

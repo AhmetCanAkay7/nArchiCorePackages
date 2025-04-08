@@ -1,4 +1,6 @@
-﻿namespace Core.Persistence.Repositories;
+﻿using System.Linq;
+
+namespace Core.Persistence.Repositories;
 
 public interface IQuery<T>
 {
